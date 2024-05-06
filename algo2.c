@@ -10,13 +10,11 @@ int kthElement2(int a[], int x, int b[], int y, int k)
         if (a[i] < b[j])
         {
             arr[m] = a[i];
-            printf("%d",arr[m]);
             i++;
         }
         else
         {
             arr[m] = b[j];
-            printf("%d",arr[m]);
             j++;
         }
         m++;
@@ -30,6 +28,6 @@ int main()
     int arr2[] = {72, 86 ,113 ,119 ,265 ,445 ,892};
 
     int xx = kthElement2(arr1,5,arr2,7,7);
-    printf("\n%d\n\n",xx);
+    printf("%d\n",xx);
     return 0;
 }
