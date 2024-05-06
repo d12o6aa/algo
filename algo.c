@@ -41,7 +41,7 @@ int main()
     int arr1[] = {2,5,8,1};
     int arr2[] = {3,6,7,0};
     int x = kthElement(arr1,4,arr2,4,6);
-    printf("%d",x);
+    printf("%d\n",x);
     return 0;
 }
 
